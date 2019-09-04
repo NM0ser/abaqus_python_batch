@@ -12,14 +12,14 @@ you must first start an Abaqus Command terminal. For more information, see the A
 Execution -> Execution Procedures -> Python Execution" as well as, "Abaqus -> Scripting -> About the Abaqus Scripting 
 Interface". Within the Abaqus Command terminal, a user Python script can be executed by typing: 
 
->> abaqus python myScriptName.py
+> abaqus python myScriptName.py
 
-where >> is the command prompt (don't actually type that), and myScriptName.py is the python script you wish to run. 
-Make sure you are in the same directory as the script that you wish to execute. The provided demonstrations should be 
-executed in numerical order (i.e., start with Demo 0). In each subdirectory, there will be a "driver_" python script, 
-which is the script to submit to the Abaqus Python interpreter that drives the post-processing functions. Each 
-demonstration subdirectory has a local, identical copy of these helper post-processing scripts. Note that the available
-post-processing helper functions are in the following files:
+where myScriptName.py is the python script you wish to run. Make sure you are in the same directory as the script that 
+you wish to execute. The provided demonstrations should be executed in numerical order (i.e., start with Demo 0). In 
+each subdirectory, there will be a "driver_" python script, which is the script to submit to the Abaqus Python 
+interpreter that drives the post-processing functions. Each demonstration subdirectory has a local, identical copy of 
+these helper post-processing scripts. Note that the available post-processing helper functions are in the following 
+files:
 
 1) abaqus_moser_shape_functions.py
 2) abaqus_moser_utility_functions.py
